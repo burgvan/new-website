@@ -1,0 +1,455 @@
+/*
+ * author: Roman Shprenger
+ * template: a.k1 - Creative Portfolio & Blog HTML5 Template
+ * version: v1.1
+ * url: https: */
+/**** FONTS ****/
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url("https://fonts.googleapis.com/css?family=Istok+Web");
+/**** main titles on home page ****/
+.home__welcome-title, .home__about-title, .home__blog-title, .home__contacts-title, .works__title, .project__title {
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;
+  color: #03c1b1; }
+
+.home__welcome-title{
+   color: #ffffff;
+}
+
+/**** main title on project, blog, article and works pages ****/
+
+
+/**** label and count in comments ****/
+.comments__label, .comments__count {
+font-family: "Lato", "Helvetica", "Arial", sans-serif; }
+
+/**** links in header ****/
+.header a {
+ font-family: "Lato", "Helvetica", "Arial", sans-serif; }
+
+/**** title of skills section on home page ****/
+.home__about-skills-title {
+ font-family: "Lato", "Helvetica", "Arial", sans-serif; }
+
+/**** headings in information about client on project page ****/
+.project__client-heading {
+ font-family: "Lato", "Helvetica", "Arial", sans-serif; }
+
+/**** social links ****/
+.socials__link {
+ font-family: "Lato", "Helvetica", "Arial", sans-serif; }
+
+/**** text in buttons ****/
+.btn {
+font-family: "Lato", "Helvetica", "Arial", sans-serif; }
+
+/**** any text ****/
+body, p, li {
+  font-family: "Merriweather", "Times", serif; }
+
+/**** item of list ****/
+ul.list li {
+  font-family: "Merriweather", "Times", serif; }
+
+/**** title and date in preview of blog on home page ****/
+.home__blog-preview-title, .home__blog-preview-date {
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;}
+
+/**** title and date of article on blog page ****/
+.blog__item-title, .blog__item-date {
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;}
+
+/**** links, headings and text on project page ****/
+.project__description-heading, .project__steps-heading {
+ font-family: "Lato", "Helvetica", "Arial", sans-serif;
+  margin-top: 30px; }
+
+.date{
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.project__client-text, .project__description-text, .reports {
+  font-family: "Merriweather", "Times", serif; }
+
+.project__link {
+ font-family: "Lato", "Helvetica", "Arial", sans-serif;}
+
+/**** blockquote, text, headings, date, count of comments under main title on article page ****/
+.article__heading, .article__date, .article__stat {
+ font-family: "Lato", "Helvetica", "Arial", sans-serif;}
+
+.article__text p {
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;}
+
+.article__quote blockquote {
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;}
+
+/**** text and authors name of comment ****/
+.comment__author, .comment__text {
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;}
+
+/**** content and contact texts on home page ****/
+.home__welcome-content, .home__contacts-content {
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;}
+
+.home__welcome-content{
+  color: #ffffff;
+}
+
+.home__about-content {
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;
+  font-size: 18px;
+}
+
+.home__contacts-geo, .home__contacts-mail, .home__contacts-contacts {
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;}
+
+.home__blog-preview-text {
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;}
+
+/**** name of project in portfolio grid ****/
+.portfolio__title {
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;
+  color: #ffffff;
+  }
+
+/**** title and value of skill in about section of home page ****/
+.skills__title, .skills__value {
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;}
+
+/**** pagination ****/
+.pagination__item {
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;}
+
+/**** FONT COLORS ****/
+/**** Colors of text and titles ****/
+body {
+  color: #414141; }
+
+h1, h2 {
+  color: #414141; }
+
+h3 {
+  color: #03c1b1; }
+
+h4 {
+  color: #414141; }
+
+h5 {
+  color: #03c1b1; }
+
+p, small {
+  color: #414141; }
+
+/**** Colors of text in fields of forms ****/
+input[type="text"], input[type="password"], input[type="email"], textarea {
+  color: #414141; }
+
+
+
+/**** Colors of button text ****/
+.btn {
+  color: #414141; }
+
+/**** Colors of links on pages ****/
+a {
+  color: #414141; }
+  a:hover {
+    color: #03C1B9; }
+
+/**** Colors of links in header navigation ****/
+.header__nav-link {
+  color: #414141; }
+  .header__nav-link:hover {
+    color: #414141; }
+
+/**** Colors of text (p) and links (a) in footer and in socials bar ****/
+.footer p, .socials p {
+  color: #414141;
+  text-align: center; }
+
+.footer a, .socials a {
+  color: #414141; }
+  .footer a:hover, .socials a:hover {
+    color: #13a594; }
+
+/**** Color of preview short text in item of blog grid ****/
+.blog__item-text {
+  color: #414141; }
+
+/**** Color of link in pagination ****/
+.pagination__link {
+  color: #414141; }
+
+.reports{
+  padding:0;
+}
+
+/**** BACKGROUND COLORS ****/
+/**** main background ****/
+
+
+/**** active item in pagination ****/
+.pagination__item--active {
+  background-color: #D6D6D6; }
+
+/**** title of portfolio item ****/
+.portfolio__item-title {
+  background-color: #414141; }
+
+.portfolio__item-img{
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */    
+   -webkit-filter: saturate(55%);
+   -moz-filter: saturate(55%);
+   -ms-filter: saturate(55%);
+   filter: saturate(55%);
+   transition:all 0.3s ease;
+}
+.portfolio__item-img:hover{
+  -webkit-filter: none;
+   -moz-filter: none;
+   -ms-filter: none;
+   filter: none;
+}
+/**** background of title in portfolio's grid item ****/
+
+
+/**** client photo on project page ****/
+.project__client-image {
+  background-color: #C5DED7; }
+
+/**** section with form on project page ****/
+.contact-preview {
+      border-style: solid;
+    border-width: thin;
+    border-color: #13a594; }
+
+/**** dots of list item ****/
+ul.list li:before {
+  background-color: #414141; }
+
+/**** button border ****/
+.btn {
+   }
+  .btn:hover {
+    background-color: #FFB265;
+    color: #414141;
+  transition: all 0.3s ease;
+}
+
+/**** button border ****/
+.header--scrolled {
+  background: rgba(232, 232, 232, 0.9); }
+
+/**** burger menu ****/
+.header__nav {
+  background-color: #E8E8E8; }
+
+.header__burger span {
+  background: #414141; }
+  .header__burger span:before, .header__burger span:after {
+    background: #414141; }
+
+.header__burger:hover span {
+  background: #414141; }
+  .header__burger:hover span:before, .header__burger:hover span:after {
+    background: #414141; }
+
+/**** skills bars ****/
+.skills__progress {
+  border-bottom: 4px solid #CFCFCF; }
+  .skills__progress span {
+    border-bottom: 4px solid #414141; }
+
+/**** count of comments ****/
+.comments__count {
+  background-color: #CFCFCF; }
+
+/**** dash in footer ****/
+.footer__dash:before {
+  border-bottom-color: #CFCFCF; }
+
+/**** background of fields on form ****/
+.field__input, .field__textarea {
+    border-style: solid;
+    border-width: thin;
+    border-color: #13a594; }
+
+/**** border of socials bar ****/
+.socials {
+  border-bottom-color: #CFCFCF; }
+
+/**** gradient of footer ****/
+.footer {
+  background: #FFFFFF;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: 'segoe ui';
+}
+
+figcaption{
+  font-family: "Istok Web", sans-serif;
+  font-size: 13px;
+}
+
+.nav {
+  height: 70px;
+  width: 100%;
+  background-color: #C5DED7;
+  position: relative;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+  width: 96px;
+  position:relative;
+  z-index:3;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 29px 28px 13px 10px;
+  text-decoration: none;
+  color: #414141;
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;
+
+}
+
+.nav > .nav-links > a:hover {
+  color: #414141;
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+.skills > .left{
+  float: left;
+  padding-left: 0;
+}
+
+.skills > .right{
+  float: right;
+}
+
+/**For having TWO IMAGES side by side in project page**/
+
+.special-text{
+  margin-bottom: 0 !important;
+}
+
+.special-leftimg img{
+  width: 48%;
+  float: left;
+  margin-right: 46px;
+}
+
+.special-rightimg img{
+  width: 48%;
+}
+@media (max-width: 1279px){
+.special-text{
+  margin-bottom: inherit;
+}
+
+.special-leftimg img{
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.special-rightimg img{
+  width: 100%;
+}
+}
+
+@media (max-width:700px){
+
+.nav{
+  height: 61px;
+}
+.nav > .nav-links > a{
+  padding: 23px 15px 13px 10px;
+}
+
+.nav > .nav-links {
+  line-height: -1px;
+  font-size: 16px;
+}
+
+.nav > .nav-header > .nav-title{
+  width: 82px;
+}
+
+.skills__title{
+ font-size: 16px;
+}
+
+}
+@media (max-width:350px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 6px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 63px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #414141;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #ffffff;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 60px;
+    left: 0px;
+    text-align: center;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+    z-index:2;
+  }
+
+}
